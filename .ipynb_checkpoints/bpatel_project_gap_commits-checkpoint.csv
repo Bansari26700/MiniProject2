@@ -1,0 +1,861 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;3dct_open_ia;35156dd98313070b330c7ed007c04827284f79b1;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749544318;"gui: Fix toolbar names
+"
+pre;3dct_open_ia;be6ab635c05717932c78943f4d097acfa059877e;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749558856;"gui: Improve reset layout tooltip
+"
+pre;3dct_open_ia;125e924959fa9bbefbec38e06a1681a3bb7a9f40;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749559121;"VolumePlayer: Fix potential crashes (cell coloring, comment-out not implemented blending)
+"
+pre;3dct_open_ia;2f40b338b1f1dd7100972ae407aa9d7e0e6a06a6;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749562205;"VolumePlayer: Refactor to use iADockWidgetWrapper
+"
+pre;3dct_open_ia;a9b82eee05b610f1fa8c47354258756586007bea;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749562281;"FeatureScout: Remove unused include/fwd declaration
+"
+pre;3dct_open_ia;30ee298f42bddb2cfbde5bb212ee4bd37bac4e4b;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749634482;"gui: Remove slicer settings dialog (available via Views menu)
+"
+pre;3dct_open_ia;a2fba52ac80db1ab5f3a6764b5b16fce125a1006;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749634541;"FeatureScout: Proper name for 'FeatureScout Toolbar'
+"
+pre;3dct_open_ia;215ed0ff883c794cbb474beca3e06acd7ef83554;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749636686;"manifest: 2025.6.rc2, add untested modules note
+"
+pre;3dct_open_ia;6ab094675ded2d7127d20779723de758125e1400;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749643871;"ci: OpenXR -> 1.1.48 in github actions build
+"
+pre;3dct_open_ia;80645340fe5b90404618c28508f3846e558aed55;Bernhard Froehler <bernhard.froehler@fh-wels.at>;1749644912;"Fix doxygen version number
+"
+post;3dct_open_ia;586cd7b4a207ed44ca9e5001e56e2dc231b92948;Bernhard Froehler <bernhard@bfroehler.info>;1760125669;"Minor fix discrete surface filter
+"
+post;3dct_open_ia;e11774d60ac80b6cc01c91c707278aef29729dcd;Bernhard Froehler <bernhard@bfroehler.info>;1760128948;"Add surface reconstruction filter
+"
+post;3dct_open_ia;54fa30806f49c79f1f9b568ab0ff2c77b073f1ff;Bernhard Froehler <bernhard@bfroehler.info>;1761165337;"CMake: More MSVC environment information
+"
+post;3dct_open_ia;df7925260b0bf867118c33116fd647f60124e746;Bernhard Froehler <bernhard@bfroehler.info>;1761165395;"Surfaces: Discrete Extraction
+"
+post;3dct_open_ia;665ea6adb09956b2e251bc5fd2e1cfc67a749ba4;Bernhard Froehler <bernhard@bfroehler.info>;1771063957;"Refactor: Move image I/O to io lib
+"
+post;3dct_open_ia;fcb8f3093827f5d1e0b56e369fe949546e32d544;Bernhard Froehler <bernhard@bfroehler.info>;1774606369;"Fix includes on Windows/Debug (duplicate iAitkImageTypes.h only with different case)
+"
+post;3dct_open_ia;8b49210a225e8f6eaa5711a58e4a32d443b647a2;Bernhard Froehler <bernhard@bfroehler.info>;1774606436;"Qt nodiscard warnings -> error checks
+"
+post;3dct_open_ia;b4c7a790e002823c22cf724f3102ec1c6a4a1bd5;Bernhard Froehler <bernhard@bfroehler.info>;1774606465;"VTK Fix Actor2D -> ViewProp deprecation warning
+"
+post;3dct_open_ia;f364b30325c12556a4c8eb20886a01c375aaeba0;Bernhard Froehler <bernhard@bfroehler.info>;1774606715;"Replace std::cerr with LOG
+"
+post;3dct_open_ia;d6af6eaf3aaddfc749ec441ddf9dba2449fd878a;Bernhard Froehler <bernhard@bfroehler.info>;1774606875;"VTK: Fix warning Allocate(...EstimateSize) -> AllocateEstimate
+"
+pre;billennium_regae;ee4963b6913d5060ab4ba487a1261583724b94e2;Adam Małkowski <adam.malkowski@billennium.com>;1655980832;"add wrapper to autoencoder
+"
+pre;billennium_regae;0282a3c910473e7d555ae580f49ba079ded8e9ec;Adam Małkowski <adam.malkowski@billennium.com>;1655990971;Update README.md
+pre;billennium_regae;c9e1289514b923dadc17da867be637385f0d2543;Adam Małkowski <adam.malkowski@billennium.com>;1655991696;"add missed inints
+"
+pre;billennium_regae;a0ec4219a13e6f5814e2e7d95005690c0c58c3e0;Adam Małkowski <adam.malkowski@billennium.com>;1655992372;"update setup.py
+"
+pre;billennium_regae;e2973169653248d3fb7d9b6b9ce16b38d6b7ae04;Jakub Grzechociński <jakub.grzechocinski.stud@pw.edu.pl>;1655999111;add more specific comments to the RGAE wrapper
+pre;billennium_regae;8d0782267b61e5a7aafaabe9fd1ff04245f7e2e2;Adam Małkowski <adam.malkowski@billennium.com>;1656062535;Fix indent in RGAE comment
+pre;billennium_regae;a41a279d2ecf4fb6e2ddc8188abf8f0fa0eac633;AdamM-Bille <97169925+AdamM-Bille@users.noreply.github.com>;1656080407;Create LICENSE
+pre;billennium_regae;a2a8b3c1e260a0856cff7d645d3560e4ada2d664;AdamM-Bille <97169925+AdamM-Bille@users.noreply.github.com>;1656088254;Update README.md
+pre;billennium_regae;6239997a7c8290ac6024c7bee479e9f062850f4b;Adam Małkowski <97169925+AdamM-Bille@users.noreply.github.com>;1656088907;Update setup.py
+pre;billennium_regae;2aada9c8480626c64d4f84d2e0f7960c776b6243;Adam Małkowski <97169925+AdamM-Bille@users.noreply.github.com>;1656487993;Update README.md
+post;billennium_regae;0ec3f26e3f6ed8d23097ca0f2312a4e6c6455435;Adam Małkowski <adamalkowski@gmail.com>;1731934863;"Add download data scripts and mutag experiment
+"
+post;billennium_regae;b0074d5e24f248e0b5e652fabc43985553c47078;Adam Małkowski <adamalkowski@gmail.com>;1731935108;"Add mutag to guild; update readme
+"
+pre;cbroeckl_ramclustr;c6803a1af17faa0bc72c0df9a455ed3f48eeea27;cbroeckl <corey.broeckling@colostate.edu>;1453737453;"Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	NAMESPACE
+"
+pre;cbroeckl_ramclustr;7a2de110f410ec3c76bd3aa8c56c004a1e1dbecf;Corey Broeckling <cbroeckl@users.noreply.github.com>;1453999065;Update ramclustR2.R
+pre;cbroeckl_ramclustr;d9f79f12185f27f0481b65d8c49d3c4239a082d7;Corey Broeckling <cbroeckl@users.noreply.github.com>;1453999893;"Update ramclustR2.R
+
+retention time adjustment function was failing in certain instances when the number of scans from one file to the next was different.  Filled NA values with zero values as a fix for now - this is only likely to impact the data at the very end of the chromatogram."
+pre;cbroeckl_ramclustr;c9982fe798e4d38d59339987bd85b50b4d1fe090;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454003744;Update ramclustR2.R
+pre;cbroeckl_ramclustr;0a94ec1f5656ffbbac2ce6ab867b6f4ef55138a9;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454343005;Update ramclustR2.R
+pre;cbroeckl_ramclustr;6f5aa1cbf5739061112895beb1e46e3d592125bb;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454358509;Update ramclustR2.R
+pre;cbroeckl_ramclustr;989c9a7aeb951f4ef42b527e9fc5512d7b28f613;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454360688;"Update ramclustR2.R
+
+trying to fix 'from<' NA bug.  
+Only finish fill EIC loop if 'from' is not NA"
+pre;cbroeckl_ramclustr;e98cfc6dc90139b2035f2445593c74c2613d57fa;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454447532;Update ramclustR2.R
+pre;cbroeckl_ramclustr;5bad8a0c961e917e16cd469c07a8d27a7fcd1224;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454447760;Update ramclustR2.R
+pre;cbroeckl_ramclustr;c30d220013c08798ee785bb4d4cd7c291b5a3cfa;Corey Broeckling <cbroeckl@users.noreply.github.com>;1454456771;Update ramclustR2.R
+post;cbroeckl_ramclustr;8b75de89788320adce983d93ec7f3212ba9bad52;Corey Broeckling <cbroeckl@users.noreply.github.com>;1495741906;fix module size =1 error
+post;cbroeckl_ramclustr;211d54bc719b7f1b2514f2bc2ce12299e08726f2;Corey Broeckling <cbroeckl@users.noreply.github.com>;1495743099;fix module size = 1 bug
+post;cbroeckl_ramclustr;294e03a4d06290cfba65bccadde64ca045174e11;Corey Broeckling <cbroeckl@users.noreply.github.com>;1501166604;Update README.md
+post;cbroeckl_ramclustr;1427ad022d5c4472685b84da683d1dbbcb8af371;Corey Broeckling <cbroeckl@users.noreply.github.com>;1501166635;Update README.md
+post;cbroeckl_ramclustr;8e76a231469fc0fcb1cb36c7466b8a963f75a4ae;sneumann <sneumann@ipb-halle.de>;1501935171;Merge branch 'master' into master
+post;cbroeckl_ramclustr;192611288f6a707d01927c12a9650004140787d0;sneumann <sneumann@ipb-halle.de>;1501935243;"Merge pull request #7 from cbroeckl/master
+
+Hi, I had to fix a few merge conflicts, and will now make sure that R CMD check 
+finishes without WARNINGS. Yours, Steffen"
+post;cbroeckl_ramclustr;7643954ab671da8a1d449aa2b6c7f6ed02022c7f;Steffen Neumann <sneumann@ipb-halle.de>;1501938599;"Get rid of R CMD check WARNINGS, two documentation related warnings are left
+"
+post;cbroeckl_ramclustr;30d76d9ebdfef765d20f243fbcc7d0e7aa21d74f;Corey Broeckling <cbroeckl@users.noreply.github.com>;1506030543;"Merge pull request #2 from sneumann/master
+
+Some cleanup patches"
+post;cbroeckl_ramclustr;50347ecd94079bede582b02a3c1d369ed4dc5ac3;Corey Broeckling <cbroeckl@colostate.edu>;1506040869;"updated documentation
+"
+post;cbroeckl_ramclustr;8e915513974b48c6d095454739616e925416fac5;Corey Broeckling <cbroeckl@colostate.edu>;1506043419;"added do.findmain function
+
+for annotating ramclustR spectra
+"
+pre;clojupyter_clojupyter;769f0b519c6878241211c7f8208c6abc651bd314;roryk <rory.kirchner@gmail.com>;1399620581;"Initial commit.
+"
+pre;clojupyter_clojupyter;6d19c38f66fcde5ad021c23d8fed8846567f9944;roryk <rory.kirchner@gmail.com>;1399620804;"Cleanup cruft.
+"
+pre;clojupyter_clojupyter;5e7eff5ab9e20a177b06dcb31da3cbe6c96e1427;roryk <rory.kirchner@gmail.com>;1399621190;"Make demo bigger.
+"
+pre;clojupyter_clojupyter;37ce67331a74f746bfe1407741a4c4443fc42844;roryk <rory.kirchner@gmail.com>;1399643440;"Cleanup of cruft.
+"
+post;clojupyter_clojupyter;ad7e9878f18282bececaf9ed19391c1b04c91d93;roryk <rory.kirchner@gmail.com>;1439227486;"Address zeromq import issue.
+
+Partial work towards #1.
+"
+post;clojupyter_clojupyter;7a4e4a00d468ac7b17ca0b7992dac45c539d67d4;roryk <rory.kirchner@gmail.com>;1439438348;"First commit for jupyter support.
+
+Added sha256-hmac checking of messages.
+"
+post;clojupyter_clojupyter;d122b8ae70c7ba1cc3c543ac7aaa9160cc7c67b0;roryk <rory.kirchner@gmail.com>;1439441494;"Implemented signing our messages.
+"
+post;clojupyter_clojupyter;d06d9515ec78c8efa0fb13f52f64108d0a155226;roryk <rory.kirchner@gmail.com>;1439442614;"jupyter as functional as before
+"
+post;clojupyter_clojupyter;48ea91c740187962e8f19657fda820b40bc318fa;roryk <rory.kirchner@gmail.com>;1439447316;"Updated installer.
+
+Installer now puts the executable and tells IPython where
+to find it so the user don't have to do any configuration
+other than type make.
+"
+post;clojupyter_clojupyter;373d5272b9f68634ad8e66dc5805a3386e35074c;roryk <rory.kirchner@gmail.com>;1439488084;"Add missing kernel.json.
+
+Thanks to @thomasjm for pointing it out.
+"
+post;clojupyter_clojupyter;d98bafad4bd9f81368c0752705e5d212a242ffc5;Rory Kirchner <rory.kirchner@gmail.com>;1440094134;update with name-change to clojupyter
+post;clojupyter_clojupyter;33722c944d6037966e25881187b75d9a07989138;roryk <rory.kirchner@gmail.com>;1440094168;"Update with clojupyter documentation.
+"
+post;clojupyter_clojupyter;429016b2de2acab855d0be15a6d6eaf46bb93017;roryk <rory.kirchner@gmail.com>;1440094313;"clojupyter-specific instructions
+"
+post;clojupyter_clojupyter;9cfd89455cb45367642dddae2ce8c33e2316ddcb;Rory Kirchner <rory.kirchner@gmail.com>;1440094946;Instructions for how to run the console/notebook
+pre;ewenharrison_finalfit;64698cd38b5fdb00503a43e5a5868d47ed83ebbe;riinuots <riinu.pius@ed.ac.uk>;1699288804;"fct_explicit_na() changed to fct_na_value_to_level()
+"
+pre;ewenharrison_finalfit;0a65b167abfbd514d1d56147dd44fe3204b6bee5;ewenharrison <mail@ewenharrison.com>;1699309304;"Fix fct_explicit_na()
+"
+pre;ewenharrison_finalfit;873d7bc8d50a2b9cd5337cc77706ef50e3f9c858;ewenharrison <mail@ewenharrison.com>;1699963726;"Missing compare correction
+"
+pre;ewenharrison_finalfit;5dd029d1467f2d2241bc74ac391e3d9c7b5fd836;ewenharrison <mail@ewenharrison.com>;1700231309;"1.07 to CRAN
+"
+pre;ewenharrison_finalfit;2e043058091f1b63c44eb0a0ab0e917dd3e54682;ewenharrison <mail@ewenharrison.com>;1700640320;"#58
+"
+pre;ewenharrison_finalfit;9700137ecab8419e968374c13ce7b50b9fc6e6b3;boprize123 <155342705+boprize123@users.noreply.github.com>;1704083818;Create boprize123
+pre;ewenharrison_finalfit;a12d907cc478b0d12fa7accd7d17dc32f17fa553;boprize123 <155342705+boprize123@users.noreply.github.com>;1704083963;"Merge 9700137ecab8419e968374c13ce7b50b9fc6e6b3 into 2e043058091f1b63c44eb0a0ab0e917dd3e54682
+"
+pre;ewenharrison_finalfit;c1bdaf81d8aceadb4ffd63eef2fd7f922ed54a52;ewenharrison <mail@ewenharrison.com>;1709922109;"1.0.72
+"
+pre;ewenharrison_finalfit;b48e929bab788e128c44002b650e664256965e54;ewenharrison <mail@ewenharrison.com>;1721764880;"1.0.8
+"
+pre;ewenharrison_finalfit;87bb96da11ff259735a89d52bd9fe863d4674b6b;ewenharrison <mail@ewenharrison.com>;1725265051;"news update
+"
+post;ewenharrison_finalfit;1133df2cd4eef6b41e3ffed76878b1e822fb66b5;ewenharrison <mail@ewenharrison.com>;1742570207;"1.08
+"
+post;ewenharrison_finalfit;3de1fc6fba91e6d851ca5b358e9b21165461cd86;ewenharrison <mail@ewenharrison.com>;1742596878;"1.0.9
+"
+post;ewenharrison_finalfit;6656778d92af79fc1b90bcfaddbfbc16d163aa95;ewenharrison <mail@ewenharrison.com>;1756920163;"1.1.0 with plot updates after breaking changes
+"
+post;ewenharrison_finalfit;5d2004c0b2467cada2d7d32e0c7eb464b3cd801d;ewenharrison <mail@ewenharrison.com>;1759513551;"#110
+"
+post;ewenharrison_finalfit;8c6e16214d71b8a318f1c32e787139f35b7604e4;ewenharrison <mail@ewenharrison.com>;1761574972;No more travis
+pre;hasadna_anyway-newsflash-infographics;f09d19701c244a889e6157eee5adb6b6520b453d;Atalya Alon <20992625+atalyaalon@users.noreply.github.com>;1694161491;"Delete src/assets/hasadna.png (#989)
+
+"
+pre;hasadna_anyway-newsflash-infographics;672afe72c3b57ce5562b13416bc7b95506e373b1;Atalya Alon <20992625+atalyaalon@users.noreply.github.com>;1694161726;Merge branch 'master' into dev
+pre;hasadna_anyway-newsflash-infographics;c99da65dffba1e0eccf668afde1c10d747d28d16;Atalya Alon <20992625+atalyaalon@users.noreply.github.com>;1694161962;"merge dev into master (#987)
+
+* [Feat-885] Add selection for stack bar graphs (#935)
+
+* Added stacked bar widgets a checkbox option
+
+* Add option to choose colors when changing displayed bars
+
+* Changed any to proper type, make number of bar generic and add function createBarWidget
+
+* Fix bug of changed values when closing card editor
+
+* PR review changes
+
+* Remove redundent imports
+
+* add conditional label, refactor utils (#938)
+
+Co-authored-by: Daniel Shely <>
+
+* Update .env.staging (#947)
+
+* Add critical indication (#948)
+
+* Added image
+
+* Added critical icon based on field value
+
+* Added critical option to the filter panel
+
+* Added enum value
+
+* Had to increase width
+
+* Added local critical filter
+
+* Added field to model
+
+* add alt attrinbte on image tag (#951)
+
+* Update .env.staging (#952)
+
+* Make critical filter non local (#958)
+
+* sufficient condition
+
+* Use object for fetch args
+
+* Send params in object format
+
+* Make fields optional
+
+* don't use ""any"" type hint
+
+* Update News.tsx (#961)
+
+* Update news-flash-store.ts (#962)
+
+* Update News.tsx
+
+* Update thank-you-names.csv
+
+* transaction dialog box (#966)
+
+Co-authored-by: EyalIlan <eyalilan8@gmail.com>
+
+* [Feat-925] Add location approval feature (#969)
+
+* initial feature commit with icon and new field
+
+* Added icon choice and display
+
+* Move critical icon
+
+* Add location change button
+
+* Make critical icon transperent
+
+* replace critical.gif with svg
+
+* Window open pressing button, seperated newsFlash comp to new file
+
+* Added user info
+
+* Status icon and buttons
+
+* Added map choice (need to finish with saving data)
+
+* Saving location and qualificaion data
+
+* Added manual option for location qualification and added user change
+
+* Fix responsibilty issue between the two files
+
+* Split Search city to 2 files
+
+* Spacing and page look
+
+* Changed initialLocation to be a function, and improved onClose location window
+
+* Split radio buttons to seperate file
+
+* updated put function for news flash
+
+---------
+
+Co-authored-by: Daniel Shely <>
+
+* Feature add transcrption 4 widgets 957 (#968)
+
+* transaction dialog box
+
+* show transaction icon only widgets that has transaction
+
+* add copy image to transaction box
+
+* add widget vision_10_30_90 (#972)
+
+* Feature widget vision zero 10 50 90 (#975)
+
+* add widget vision_10_30_90
+
+* change widget 10_30_90 to 10_50_90
+
+* change the location of the start command in package.json (#977)
+
+* change the location of the start command in package.json
+
+change the location of the start command
+after receive this error:
+/usr/local/bin/node: bad option: --openssl-legacy-provider
+
+* add npx browserslist@latest --update-db before start the docker
+
+* add logo (#979)
+
+* add natun square logo (#982)
+
+* add widget lower bar (#981)
+
+* update logo (#980)
+
+* Update Footer.tsx (#986)
+
+* add data-for-change (#988)
+
+* Delete src/assets/hasadna.png (#989)
+
+---------
+
+Co-authored-by: shaked-hayek <85109951+shaked-hayek@users.noreply.github.com>
+Co-authored-by: danielsh28 <danielshely1@gmail.com>
+Co-authored-by: carmelp16 <46032304+carmelp16@users.noreply.github.com>
+Co-authored-by: EyalIlan <55767736+EyalIlan@users.noreply.github.com>
+Co-authored-by: EyalIlan <eyalilan8@gmail.com>
+Co-authored-by: Shai2022 <106345640+Shai2022@users.noreply.github.com>"
+pre;hasadna_anyway-newsflash-infographics;93ecda1941e1fb388a3628523e7afbe31cae96c5;EyalIlan <55767736+EyalIlan@users.noreply.github.com>;1694627522;"Bug click twice to change news backround (#984)
+
+* add widget lower bar
+
+* fix news menu bar bug you need to click twice to make the news backround active"
+pre;hasadna_anyway-newsflash-infographics;89cdda869b8d4cf4b24d32f2a0aeba5197b348bb;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1694629162;"Merge b4541e4f0f2c14ddaa4034550e52e9dfd66fbd0a into 93ecda1941e1fb388a3628523e7afbe31cae96c5
+"
+pre;hasadna_anyway-newsflash-infographics;a5799cd70b12263d5afaaf238b8bb9c4e348d0c7;Atalya Alon <20992625+atalyaalon@users.noreply.github.com>;1694629849;"merge dev into master (#991)
+
+* [Feat-885] Add selection for stack bar graphs (#935)
+
+* Added stacked bar widgets a checkbox option
+
+* Add option to choose colors when changing displayed bars
+
+* Changed any to proper type, make number of bar generic and add function createBarWidget
+
+* Fix bug of changed values when closing card editor
+
+* PR review changes
+
+* Remove redundent imports
+
+* add conditional label, refactor utils (#938)
+
+Co-authored-by: Daniel Shely <>
+
+* Update .env.staging (#947)
+
+* Add critical indication (#948)
+
+* Added image
+
+* Added critical icon based on field value
+
+* Added critical option to the filter panel
+
+* Added enum value
+
+* Had to increase width
+
+* Added local critical filter
+
+* Added field to model
+
+* add alt attrinbte on image tag (#951)
+
+* Update .env.staging (#952)
+
+* Make critical filter non local (#958)
+
+* sufficient condition
+
+* Use object for fetch args
+
+* Send params in object format
+
+* Make fields optional
+
+* don't use ""any"" type hint
+
+* Update News.tsx (#961)
+
+* Update news-flash-store.ts (#962)
+
+* Update News.tsx
+
+* Update thank-you-names.csv
+
+* transaction dialog box (#966)
+
+Co-authored-by: EyalIlan <eyalilan8@gmail.com>
+
+* [Feat-925] Add location approval feature (#969)
+
+* initial feature commit with icon and new field
+
+* Added icon choice and display
+
+* Move critical icon
+
+* Add location change button
+
+* Make critical icon transperent
+
+* replace critical.gif with svg
+
+* Window open pressing button, seperated newsFlash comp to new file
+
+* Added user info
+
+* Status icon and buttons
+
+* Added map choice (need to finish with saving data)
+
+* Saving location and qualificaion data
+
+* Added manual option for location qualification and added user change
+
+* Fix responsibilty issue between the two files
+
+* Split Search city to 2 files
+
+* Spacing and page look
+
+* Changed initialLocation to be a function, and improved onClose location window
+
+* Split radio buttons to seperate file
+
+* updated put function for news flash
+
+---------
+
+Co-authored-by: Daniel Shely <>
+
+* Feature add transcrption 4 widgets 957 (#968)
+
+* transaction dialog box
+
+* show transaction icon only widgets that has transaction
+
+* add copy image to transaction box
+
+* add widget vision_10_30_90 (#972)
+
+* Feature widget vision zero 10 50 90 (#975)
+
+* add widget vision_10_30_90
+
+* change widget 10_30_90 to 10_50_90
+
+* change the location of the start command in package.json (#977)
+
+* change the location of the start command in package.json
+
+change the location of the start command
+after receive this error:
+/usr/local/bin/node: bad option: --openssl-legacy-provider
+
+* add npx browserslist@latest --update-db before start the docker
+
+* add logo (#979)
+
+* add natun square logo (#982)
+
+* add widget lower bar (#981)
+
+* update logo (#980)
+
+* Update Footer.tsx (#986)
+
+* add data-for-change (#988)
+
+* Delete src/assets/hasadna.png (#989)
+
+* Bug click twice to change news backround (#984)
+
+* add widget lower bar
+
+* fix news menu bar bug you need to click twice to make the news backround active
+
+---------
+
+Co-authored-by: shaked-hayek <85109951+shaked-hayek@users.noreply.github.com>
+Co-authored-by: danielsh28 <danielshely1@gmail.com>
+Co-authored-by: carmelp16 <46032304+carmelp16@users.noreply.github.com>
+Co-authored-by: EyalIlan <55767736+EyalIlan@users.noreply.github.com>
+Co-authored-by: EyalIlan <eyalilan8@gmail.com>
+Co-authored-by: Shai2022 <106345640+Shai2022@users.noreply.github.com>"
+pre;hasadna_anyway-newsflash-infographics;f659f4182df238c032831eb6cefc41bb0aed6d91;BarVolunteering <58947331+BarVolunteering@users.noreply.github.com>;1695820469;"Add dev-to-prod auth server change (#950)
+
+"
+pre;hasadna_anyway-newsflash-infographics;7d67d504a087183c6eebe1b5880bfbc99c5e1f87;Atalya Alon <20992625+atalyaalon@users.noreply.github.com>;1695822875;"merge dev into master (#992)
+
+* [Feat-885] Add selection for stack bar graphs (#935)
+
+* Added stacked bar widgets a checkbox option
+
+* Add option to choose colors when changing displayed bars
+
+* Changed any to proper type, make number of bar generic and add function createBarWidget
+
+* Fix bug of changed values when closing card editor
+
+* PR review changes
+
+* Remove redundent imports
+
+* add conditional label, refactor utils (#938)
+
+Co-authored-by: Daniel Shely <>
+
+* Update .env.staging (#947)
+
+* Add critical indication (#948)
+
+* Added image
+
+* Added critical icon based on field value
+
+* Added critical option to the filter panel
+
+* Added enum value
+
+* Had to increase width
+
+* Added local critical filter
+
+* Added field to model
+
+* add alt attrinbte on image tag (#951)
+
+* Update .env.staging (#952)
+
+* Make critical filter non local (#958)
+
+* sufficient condition
+
+* Use object for fetch args
+
+* Send params in object format
+
+* Make fields optional
+
+* don't use ""any"" type hint
+
+* Update News.tsx (#961)
+
+* Update news-flash-store.ts (#962)
+
+* Update News.tsx
+
+* Update thank-you-names.csv
+
+* transaction dialog box (#966)
+
+Co-authored-by: EyalIlan <eyalilan8@gmail.com>
+
+* [Feat-925] Add location approval feature (#969)
+
+* initial feature commit with icon and new field
+
+* Added icon choice and display
+
+* Move critical icon
+
+* Add location change button
+
+* Make critical icon transperent
+
+* replace critical.gif with svg
+
+* Window open pressing button, seperated newsFlash comp to new file
+
+* Added user info
+
+* Status icon and buttons
+
+* Added map choice (need to finish with saving data)
+
+* Saving location and qualificaion data
+
+* Added manual option for location qualification and added user change
+
+* Fix responsibilty issue between the two files
+
+* Split Search city to 2 files
+
+* Spacing and page look
+
+* Changed initialLocation to be a function, and improved onClose location window
+
+* Split radio buttons to seperate file
+
+* updated put function for news flash
+
+---------
+
+Co-authored-by: Daniel Shely <>
+
+* Feature add transcrption 4 widgets 957 (#968)
+
+* transaction dialog box
+
+* show transaction icon only widgets that has transaction
+
+* add copy image to transaction box
+
+* add widget vision_10_30_90 (#972)
+
+* Feature widget vision zero 10 50 90 (#975)
+
+* add widget vision_10_30_90
+
+* change widget 10_30_90 to 10_50_90
+
+* change the location of the start command in package.json (#977)
+
+* change the location of the start command in package.json
+
+change the location of the start command
+after receive this error:
+/usr/local/bin/node: bad option: --openssl-legacy-provider
+
+* add npx browserslist@latest --update-db before start the docker
+
+* add logo (#979)
+
+* add natun square logo (#982)
+
+* add widget lower bar (#981)
+
+* update logo (#980)
+
+* Update Footer.tsx (#986)
+
+* add data-for-change (#988)
+
+* Delete src/assets/hasadna.png (#989)
+
+* Bug click twice to change news backround (#984)
+
+* add widget lower bar
+
+* fix news menu bar bug you need to click twice to make the news backround active
+
+* Add dev-to-prod auth server change (#950)
+
+---------
+
+Co-authored-by: shaked-hayek <85109951+shaked-hayek@users.noreply.github.com>
+Co-authored-by: danielsh28 <danielshely1@gmail.com>
+Co-authored-by: carmelp16 <46032304+carmelp16@users.noreply.github.com>
+Co-authored-by: EyalIlan <55767736+EyalIlan@users.noreply.github.com>
+Co-authored-by: EyalIlan <eyalilan8@gmail.com>
+Co-authored-by: Shai2022 <106345640+Shai2022@users.noreply.github.com>
+Co-authored-by: BarVolunteering <58947331+BarVolunteering@users.noreply.github.com>"
+pre;hasadna_anyway-newsflash-infographics;52bc21e6b97cb4d6b684cd2f522ea2f1f97331ab;Barak Yakter <byakter@gmail,com>;1695837802;"center title and make it bold
+"
+pre;hasadna_anyway-newsflash-infographics;fff04c76f4c7d7a06e22532686731b876c5b202c;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1695870060;"Merge 9d2974632dd4041fe4f1c3d13cb40216d8ee29f3 into f659f4182df238c032831eb6cefc41bb0aed6d91
+"
+post;hasadna_anyway-newsflash-infographics;72d2e3fc6621d5adc976fd11ad48a2181207595b;Shaked Hayek <shaked.hayek@mail.huji.ac.il>;1702057120;"Add check for user authentication in NewsFlash (#990)
+"
+post;hasadna_anyway-newsflash-infographics;177e72345080cb1bc7300f2cc9cf0de2565b4b61;Shaked Hayek <shaked.hayek@mail.huji.ac.il>;1702062221;"Added style changes to CountInjuredByYearBarWidget and CountByYearBarWidget
+"
+post;hasadna_anyway-newsflash-infographics;362d4575bd053e4f7975cc570a2de5c76888e7e8;MatyTsoraro <maty.tsoraro@gmail.com>;1703007011;"first try button
+"
+post;hasadna_anyway-newsflash-infographics;217dc95a32a879cbcb5149a8775c787376777f20;MatyTsoraro <maty.tsoraro@gmail.com>;1703012455;"Update Node.js version to 18.x in GitHub Actions workflow
+"
+post;hasadna_anyway-newsflash-infographics;61c5650547eb350f050cab6cbc64d276e67f955d;MatyTsoraro <maty.tsoraro@gmail.com>;1703013081;"Revert Node.js version to 16.x in CI workflow to fix OpenSSL issue
+"
+post;hasadna_anyway-newsflash-infographics;71f5c7688dee30cdb64bd1cade626861d2584f63;Shaked Hayek <shaked.hayek@mail.huji.ac.il>;1703110932;"Change design in bar widgets
+"
+post;hasadna_anyway-newsflash-infographics;8cad2e06351cd7646f8dc44b4a5b1e81b211943e;Shaked Hayek <shaked.hayek@mail.huji.ac.il>;1703111216;"Spliting title and subtitle, making title bold
+"
+post;hasadna_anyway-newsflash-infographics;1d5d46f951483a312657eda31346bb12c51cfcf7;Shaked Hayek <shaked.hayek@mail.huji.ac.il>;1703158765;"Change node version to 18
+"
+post;hasadna_anyway-newsflash-infographics;24e2992fb3197ccf9b25c05c5869b2cb457af6bf;shaked-hayek <85109951+shaked-hayek@users.noreply.github.com>;1703411429;"Spliting title and subtitle, making title bold (#995)
+
+"
+post;hasadna_anyway-newsflash-infographics;d432d0e3972596f198be245d5b5c52206825955b;shaked-hayek <85109951+shaked-hayek@users.noreply.github.com>;1703411575;"Change design in bar widgets (#996)
+
+"
+pre;jsgoecke_tesla;8b8fed6a2f366b47b0aee7e126bc85f9ef9ba52b;Martin Bruse <zondolfin@gmail.com>;1475094877;"added simple homelink support
+"
+pre;jsgoecke_tesla;a6572bb53858a369d3749cae6004874743159e20;Martin Bruse <zondolfin@gmail.com>;1475399784;"More work on autopark and homelink.
+"
+pre;jsgoecke_tesla;32a921f18d78c6f9047567e15546858420372bef;Martin Bruse <zondolfin@gmail.com>;1475513578;"Made the web socket API use a callback interface instead of getters.
+"
+pre;jsgoecke_tesla;68a13079a5f8064b6085927d83dddc388c8c5057;Martin Bruse <zond@google.com>;1475561589;"Removed redundant and broken code.
+"
+pre;jsgoecke_tesla;a4a50eee3ce4b4621dda81d0e7922db26338fe9a;Martin Bruse <zond@google.com>;1475649281;"Fixed typo. Accepting non-bools as IsFrontDefrosterOn (it happened to be an int, once?).
+"
+pre;jsgoecke_tesla;f91743db99a1a459ad2a8ea7411546bf5ab9e7c0;Martin Bruse <zond@google.com>;1475649990;"Made the set_temps command a POST.
+"
+pre;jsgoecke_tesla;505e404f7adb4b80de9f03043b26ef260b2dd618;zond <github.com@troja.ath.cx>;1475650015;"Merge f91743db99a1a459ad2a8ea7411546bf5ab9e7c0 into 23ed2fa3dbab896120b46602cc6faedf23e66fcd
+"
+pre;jsgoecke_tesla;4d206e6c9f10b64b56544ef8b7b87d7a31bbb258;Mine GO BOOM <github@minegoboom.com>;1480976261;"ClimateState is_front_defroster_on is an integer value. Adding some new fields for ClimateState as well.
+"
+pre;jsgoecke_tesla;92d0268806f10ed0e0c6064846fa79366bf1b992;Mine GO BOOM <github@minegoboom.com>;1480976570;"Merge 4d206e6c9f10b64b56544ef8b7b87d7a31bbb258 into 23ed2fa3dbab896120b46602cc6faedf23e66fcd
+"
+pre;jsgoecke_tesla;93a8b94621e5754bf5def841775fb3745be1dacb;Neale Pickett <neale@woozle.org>;1499835195;"Optional custom http client
+"
+post;jsgoecke_tesla;cc2495329ec1ffe608d80493ab22b0a13c596b10;Neale Pickett <dartcatcher@gmail.com>;1533406548;"Fixed so JSON will encode
+"
+post;jsgoecke_tesla;2045c5f59fae4237ada92119e1be00e22c7b6915;Neale Pickett <neale@woozle.org>;1533406872;"Merge cc2495329ec1ffe608d80493ab22b0a13c596b10 into 23ed2fa3dbab896120b46602cc6faedf23e66fcd
+"
+post;jsgoecke_tesla;558e4ed6d8beb84adac095a895d0925594094cf7;Jeff Noxon <jeff@noxon.cc>;1534710313;"allow token reuse
+"
+post;jsgoecke_tesla;e43b83462cf21747c911c0edde9906e503fe5085;Jeff Noxon <jeff@noxon.cc>;1534711153;"Merge 558e4ed6d8beb84adac095a895d0925594094cf7 into 23ed2fa3dbab896120b46602cc6faedf23e66fcd
+"
+post;jsgoecke_tesla;5d157c892f624fe9a1d5dbda4f4183fa68967c38;Mine GO BOOM <github@minegoboom.com>;1548343699;"Merge pull request #1 from jnoxon/master
+
+allow token reuse"
+post;jsgoecke_tesla;230ab4d4b4fd5cbb1b81154d0c39a0d5adfd6930;Jason Goecke <jason@goecke.net>;1549491148;"Merge pull request #22 from jnoxon/master
+
+Allow API token re-use when initializing the client"
+post;jsgoecke_tesla;8595b9a9675c533f060c2b2b006c79e3cc920ca6;Jason Goecke <jason@goecke.net>;1549496117;"Update client_test.go
+
+Added test coverage for ClientWithToken().
+"
+post;jsgoecke_tesla;39249b692f07a0d2344b381f054c33a7d86c100d;Jason Goecke <jason@goecke.net>;1549496142;"Update README.md
+
+Updated copyright in README
+"
+post;jsgoecke_tesla;f16534f21627327c03f69c3958ffee0cc01fbb2b;Jason Goecke <jason@goecke.net>;1549496266;"Merge pull request #19 from mgb/master
+
+ClimateState is_front_defroster_on is an integer value."
+post;jsgoecke_tesla;112508e1374ed7e3670569c6b6f8e8fc76b10b94;Jason Goecke <jason@goecke.net>;1549496402;"Merge pull request #16 from dewski/fix-lint-errors
+
+Fix golint errors for commands.go"
+pre;lucidrains_lightweight-gan;4e5c18046fc105129c33995e0bffeb5f14963f4c;Phil Wang <lucidrains@gmail.com>;1650981943;"revert, as attention based upsampler not working well
+"
+pre;lucidrains_lightweight-gan;c63b77680dcdeaeaea66737f59ea2a651ba07431;Raniere Silva <raniere.silva@my.cityu.edu.hk>;1653620349;"Add TIFF to list of file extensions
+"
+pre;lucidrains_lightweight-gan;a5c42e5e32a24f1eb006d8bb9fb31eeb0d2b11ef;Raniere Silva <raniere@rgaiacs.com>;1654963473;"Add TIFF to list of file extensions (#129)
+
+"
+pre;lucidrains_lightweight-gan;2e60d413ece8baea70f9a0c6b2f4cfb18efd7aff;Phil Wang <lucidrains@gmail.com>;1654963491;0.23.3
+pre;lucidrains_lightweight-gan;33b454f70e24d0e820d662bc7031a578a42696dd;Phil Wang <lucidrains@gmail.com>;1657815065;"another measure against checkboard artifacts, release 1.0.0
+"
+pre;lucidrains_lightweight-gan;a9076369f63500e26b3a812b6b4cfd277b6d991b;Sandy Khosasi <45941585+ilos-vigil@users.noreply.github.com>;1660910176;"Update cli.py
+
+Including args ""user_aim"" to ""model_args"""
+pre;lucidrains_lightweight-gan;2a5c2a1d93eab9feee1c78b3827310effaea4c29;Sandy Khosasi <45941585+ilos-vigil@users.noreply.github.com>;1660912183;"Update cli.py
+
+Letting user use --generate, --generate-interpolation and --show-progress without installing Aim"
+pre;lucidrains_lightweight-gan;7cebbbeb9a685ae55d8636a31864e46c9045159a;Phil Wang <lucidrains@gmail.com>;1661449340;"upgrade to best downsample type
+"
+pre;lucidrains_lightweight-gan;126bfb2fbbd9dc81813637726e363aba0b795749;Sandy Khosasi <45941585+ilos-vigil@users.noreply.github.com>;1661449401;"Update cli.py (#137)
+
+Letting user use --generate, --generate-interpolation and --show-progress without installing Aim"
+pre;lucidrains_lightweight-gan;60dbb9863906175ad132f2fec8e5a36dc2909967;Phil Wang <lucidrains@gmail.com>;1661449419;"aim fix
+"
+post;lucidrains_lightweight-gan;f844df1f12b2cae02612cada87b204d3c18e2085;lucidrains <lucidrains@gmail.com>;1736647798;"add zero centered gradient penalty for real and fake images
+"
+post;lucidrains_lightweight-gan;efbec4570b7cb715e05058eccc518dc1a5753523;lucidrains <lucidrains@gmail.com>;1736647889;"update dep versions
+"
+pre;robotology_ycm;cbfabb854496757ca530e38c83e824bffb685652;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1207752832;"prioritize ACE_ROOT
+
+"
+pre;robotology_ycm;23ced9b9b3883aed2d97c6772ccf0c54913a53e9;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1208282260;"externalmodules problem
+
+"
+pre;robotology_ycm;ac1d52d73daee83ee52cab92533b598f03b2e3d9;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1208569226;"ffmpeg search order
+
+"
+pre;robotology_ycm;774a09a55300e4a81bd5f995ae33a0b16a70dd10;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1208570774;"ffmpeg search order
+
+"
+pre;robotology_ycm;7b7e179df7fb3822dfe497046c6df851f21ae1ab;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1208571025;"ffmpeg search order
+
+"
+pre;robotology_ycm;4cf82f02bf87b718d2f9d31901d49127af3b705e;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1208571400;"ffmpeg search order
+
+"
+pre;robotology_ycm;db6ee8430243476b9a1728b1e06ff7521cf668b5;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1214945039;"yet more possibilities
+
+"
+pre;robotology_ycm;91d5aaeee43c0cc374f5c147c6a566071ba38703;Lorenzo Natale <lorenzo.natale@iit.it>;1230734669;"
+"
+pre;robotology_ycm;75b6ad3fc675e2237d41885ec005ad7f8f80c242;YARP Developers <yarp0-devel@lists.sourceforge.net>;1231411451;"
+"
+pre;robotology_ycm;3b0e38b1045162f0d5c877e7f0634fbf55310190;Lorenzo Natale <lorenzo.natale@iit.it>;1231429171;"
+"
+post;robotology_ycm;49160b170d755b1e63f59a7bf1d479c5b69585b8;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1257803813;"remove YARP1 option from compilation
+
+"
+post;robotology_ycm;2fcf2a2acfad4b42ed6bb7ad725f09590456f3a1;Arjan Gijsberts <arjan.gijsberts@idiap.ch>;1258129829;"Added FindAtlas.cmake file and slightly modified example/math/benchmark.cpp.
+
+
+"
+post;robotology_ycm;f050764159c91b19085154bb8573d06f36b25694;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1258391806;"add licenses to some cmake files
+
+"
+post;robotology_ycm;967eec77234bb3f61cd0a03c32de1ad400cd45ec;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1258495756;"another batch of author/license/copyright lines
+"
+post;robotology_ycm;6fc86a5e5b8d7858e1110d634d79b0ba626705e6;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1258725488;"pass along gtk library path
+
+"
+post;robotology_ycm;8b7ca307d26ab6aca1f684db2335d0efe24f6780;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1258745078;"use built-in cmake pkg-config helpers when available
+
+"
+post;robotology_ycm;dd24898b228942768e14a004277c41bb31763ff7;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1264080623;"link pthread explicitly on linux
+
+"
+post;robotology_ycm;e3697e4c62546c3dc1f6489abc7d3a61f6e82354;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1264095123;"more debug information
+
+"
+post;robotology_ycm;c80bee11419aee5ccdb4aad5f012cf8fdfd326df;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1264188152;"better control over building ace in
+
+"
+post;robotology_ycm;a750542643db66177882bb3991c56d4c93016faf;Paul Fitzpatrick <paulfitz@alum.mit.edu>;1264205531;"report builtin locations
+
+"
+pre;walaj_seqlib;9f2a31d39fbc8a3554502b611c0a69165b4dcabc;walaj <jeremiah.wala@gmail.com>;1610068878;"updated Doxygen file
+"
+pre;walaj_seqlib;35c9ec5edb53c4afdbc60c09a5f748571c294c13;walaj <jeremiah.wala@gmail.com>;1610069077;"updated Doxygen file
+"
+pre;walaj_seqlib;f65290cdfa965b5f5c4c5a7098922f88564e204c;walaj <jeremiah.wala@gmail.com>;1610075631;"initial commit
+"
+pre;walaj_seqlib;9f589fa7fed0179d3f562f95a6157e32cfb1bddb;Julian Hess <jhess@broadinstitute.org>;1616787093;"Add BamReader::GetRegionIdx
+"
+pre;walaj_seqlib;e7736899829c6a499dd3da9fbc8428a5ac98902a;Julian Hess <jhess@broadinstitute.org>;1616787824;"Merge branch 'master' of github.com:walaj/SeqLib
+"
+pre;walaj_seqlib;db79b509bc97474e36d8b28486b51395bfadc635;Julian Hess <jhess@broadinstitute.org>;1616788772;"Remove a couple new htslib build references
+"
+pre;walaj_seqlib;bc3c5d123a33a9a5ed9ae18b5270b3c6b184a2f8;julianhess <julianhess@users.noreply.github.com>;1616788903;"Merge db79b509bc97474e36d8b28486b51395bfadc635 into 35c9ec5edb53c4afdbc60c09a5f748571c294c13
+"
+pre;walaj_seqlib;1616f2860395c26ad8b014f703c6e84902e78b8d;Jeremiah Wala <jeremiahwala@jeremiah-nference-macbook.local>;1616805754;"updated travis build to install htslib
+"
+pre;walaj_seqlib;357267e694928dc15ea5ef6c3c57c0d1973c8b98;Nathan Weeks <1800812+nathanweeks@users.noreply.github.com>;1620251472;"Add LastFlag() to BamRecord
+
+Checks if 0x80 bit is set to indicate the last segment in the template
+"
+pre;walaj_seqlib;52ac5f88238370a0efc4baaee5c27a5d85278b20;Nathan Weeks <1800812+nathanweeks@users.noreply.github.com>;1620252022;"Merge 357267e694928dc15ea5ef6c3c57c0d1973c8b98 into 35c9ec5edb53c4afdbc60c09a5f748571c294c13
+"
+post;walaj_seqlib;b714d5d019dfbefc64fbcd5fe65ef51ab61e2c46;Julian Hess <jhess@broadinstitute.org>;1671130042;"Get rid of all submodules
+"
+post;walaj_seqlib;8ad09a7c11d01b9496406ce642a0562bc2d733b8;Julian Hess <jhess@broadinstitute.org>;1671130090;"Add updated fermi-lite submodule
+"
+post;walaj_seqlib;a26830bd5d2f84b427a3ea3e824ec5e2d5633872;Julian Hess <jhess@broadinstitute.org>;1671130742;"Update BWA submodule
+"
+post;walaj_seqlib;f9c934e55b54c9c3d5475b64cef411a9b89394c3;Julian Hess <jhess@broadinstitute.org>;1671130754;"Update fermi-lite submodule again
+
+We can't use Heng Li's latest, since Jeremiah made some changes to it.
+"
+post;walaj_seqlib;fc39275bf6f10ee3ea5f441095affd5ecf1f2d77;julianhess <julianhess@users.noreply.github.com>;1671130880;"Merge f9c934e55b54c9c3d5475b64cef411a9b89394c3 into 1616f2860395c26ad8b014f703c6e84902e78b8d
+"
+post;walaj_seqlib;120dddd8ad685c5b8a86b225077476c616f32e43;Jeremiah Wala <6922120+walaj@users.noreply.github.com>;1671464610;"Merge pull request #65 from harvardinformatics/lastread
+
+Add LastFlag() to BamRecord"
+post;walaj_seqlib;8e214029e9992ce427efd4f55fb7a877e1eeba0a;julianhess <julianhess@users.noreply.github.com>;1671465331;"Merge db79b509bc97474e36d8b28486b51395bfadc635 into 120dddd8ad685c5b8a86b225077476c616f32e43
+"
+post;walaj_seqlib;02ed49afc5953b024a884dbdbe426158d49a02bd;jwala <jwala@vanallenlab.broadinstitute.org>;1694538104;"added comparator ops for BamRecord
+"
+post;walaj_seqlib;d56e35be26b96ff233fd4c5936f1d9eedd939152;jwala <jwala@vanallenlab.broadinstitute.org>;1694538305;"Merge branch 'temp-branch'
+"
+post;walaj_seqlib;85bf285ddac566fede7031ebe104ce280163bccd;Wala <jaw34@compute-e-16-231.o2.rc.hms.harvard.edu>;1694548320;"removed htslib. Added cmakelists
+"
